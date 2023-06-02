@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="bg-alice-blue">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
@@ -8,18 +8,73 @@
 
     <title></title>
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="src/_preflight.css" />
-    
-    <!-- Font -->
-
     <!-- JS Modules -->
     <script type="module" src="src/main.ts" async></script>
     <script type="module" src="src/_authorModal.ts" async></script>
   </head>
   <body>
-    <main>
-     <h1 class="sr-only"></h1>
+    <main class="grid place-items-center p-72/32/62/32 min-h-screen">
+      <h1 class="sr-only"></h1>
+      <div
+        class="grid shadow-card rounded-5 max-w-635 grid-cols-2 desktop:rounded-8"
+      >
+        <div class="bg-white p-28/24/32/24 col-span-2 desktop:p-40">
+          <h2
+            class="fw-700 fs-20 leading-23.38 -tracking-.25 c-light-sea-green desktop:fs-24 desktop:leading-28.06 desktop:-tracking-.3"
+          >
+            Join our community
+          </h2>
+          <h3
+            class="mt-24 fw-700 fs-15 leading-20 -tracking-.19 c-las-palmas desktop:fs-18 desktop:leading-21.04 desktop:-tracking-.22"
+          >
+            30-day, hassle-free money back guarantee
+          </h3>
+          <p
+            class="mt-24 fs-14 leading-26 -tracking-.17 c-rock-blue desktop:mt-11 desktop:fs-16 desktop:leading-26 desktop:-tracking-.2"
+          >
+            Gain access to our full library of tutorials along with expert code
+            reviews. Perfect for any developers who are serious about honing
+            their skills.
+          </p>
+        </div>
+        <div class="bg-light-sea-green p-24 c-white desktop:p-40">
+          <h2 class="fs-18 leading-21.04 -tracking-.22">
+            Monthly Subscription
+          </h2>
+          <h3
+            class="mt-18 fw-700 fs-32 leading-37.41 -tracking-.4 flex gap-y-11"
+          >
+            $29
+            <span
+              class="fw-400 fs-16 leading-26 -tracking-.2 opacity-50 my-auto"
+            >
+              per month
+            </span>
+          </h3>
+          <p class="mt-4 fs-16 leading-26 -tracking-.2">
+            Full access for less than $1 a day
+          </p>
+          <button
+            class="mt-26 fw-700 fs-16 leading-18.7 -tracking-.2 pt-15 pb-14 bg-las-palmas shadow-button rounded-5 w-full"
+          >
+            Sign Up
+          </button>
+        </div>
+        <div
+          class="bg-light-sea-green relative after:content-empty after:absolute after:inset-0 after:bg-white after:opacity-15 p-24 c-white desktop:p-40"
+        >
+          <h2 class="fw-700 fs-18 leading-21.04 -tracking-.22">Why Us</h2>
+          <ul class="mt-18 fs-14 leading-20 -tracking-.17 opacity-75">
+            <li>Tutorials by industry experts</li>
+            <li>Peer & expert code review</li>
+            <li>Coding Exercises</li>
+            <li>Access to our Github repos</li>
+            <li>Community forum</li>
+            <li>Flashcard decks</li>
+            <li>New videos every week</li>
+          </ul>
+        </div>
+      </div>
     </main>
   </body>
 </html>
