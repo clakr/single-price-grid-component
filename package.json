@@ -9,7 +9,11 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@unocss/preset-web-fonts": "^0.52.7",
+    "@unocss/preset-wind": "^0.52.7",
+    "@unocss/reset": "^0.52.7",
     "typescript": "^5.0.2",
+    "unocss": "^0.52.7",
     "vite": "^4.3.9"
   }
 }
